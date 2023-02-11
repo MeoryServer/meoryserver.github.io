@@ -39,8 +39,8 @@ a {
 }
 .item-page-box {
 	padding-top:10px;
-	width:1005px;
-	height:1050px;
+	width:100%;
+	height:auto;
 	margin:auto;
 	color:#5F5F5F;
 	padding-left:20px;
