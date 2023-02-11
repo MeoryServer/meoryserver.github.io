@@ -17,7 +17,7 @@
 				height: 100%;
 				z-index: 100;
 				position: fixed;
-				background: #FCFCFC;
+				background: #f7d3f9;
 			}
 			.loading-img{
 				width: 480px;
@@ -35,7 +35,7 @@
 				background: none;
 			}
 			.menu{
-				width: 100%px;
+				width: 100%;
 				margin:auto;
 				height: 50px;
 				background:none;
@@ -62,7 +62,7 @@
 				font-size:27px;
 			}
 			#item-box{
-				height: 1150px;
+				height: 100%;
 				background:white;
 				overflow: hidden;
 			}
@@ -93,6 +93,9 @@
                             display: table;
                             clear: both;
                         }
+                        #tip{
+                            position: fixed;
+                        }
 		</style>
 	</head>
 	<script>
@@ -106,6 +109,7 @@
 		<div class="loading">
 			<div class="loading-img">
 			</div>
+                        <p>Loading...</p>
 		</div>
 		<div id="menu-box">
 			<div class="menu">
@@ -125,13 +129,11 @@
                                         <h2 class="logo">1.19.3 Server</h2>
 					<h1>MEORY</h1>
 					</div>
-				<h1><a href="../fill_args.html">加入我们</a></h1><!-- 更多mc腐竹工具，源码+QQ 1612704618 -->
-				<h1><a href="../index.html">在线查询</a></h1>
-				<h1><a href="../index.html">客户端下载</a></h1>
+				<h1><a href="../fill_args.html">加入我们</a></h1>
 			</div>
 		</div>
 		<div id="item-box">
-			<div class="box"><a href="../index.html">&#9668&#9668 &nbsp; &nbsp;加入我们</a></div>
+			<div class="box" id="tip"><a href="../fill_args.html">&#9668&#9668 &nbsp; &nbsp;加入我们</a></div>
 			<div class="item-page-box">
 				<div class="item-page">
 					<h2>欢迎来到Meory服务器</h2>
