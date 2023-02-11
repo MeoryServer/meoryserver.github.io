@@ -70,9 +70,8 @@
                             background-color: #444444;
                             padding: 10px;
                         }
-                        .footer p{
-                        position: relative;
-                        left: 300px;
+                        .footer h2{
+                            color: #ffffff;
                         }
                         .footer a{
 				padding:13px 15px;
@@ -84,13 +83,15 @@
 				color:white;
 				font-size:20px;
 			}
-                        #server-icon{
-                        position: relative;
-                        top: 256px;
+                        .footer-div{
+                           
+                            float: left;
+                            width: 50%;
                         }
-                        #cms-logo{
-                        position: relative;
-                        top: 0px;
+                        .footer:after{
+                            content: "";
+                            display: table;
+                            clear: both;
                         }
 		</style>
 	</head>
@@ -143,12 +144,22 @@
 					</div>
 				</div>
 			</div>
-                </div>
-		<div class="footer">
-		    <p><a href="https://www.createmiracle3330.top">Powered By CreateMiracle3330|创奇迹工作室©</a></p>
-                    <img id="cms-logo" src="../static/images/cms-logo.jpg" />
-                    <img id="server-icon" src="../static/images/server-icon.jpg" />
+                
+		    <div class="footer">
+                        <div class="footer-div">
+                            <img id="cms-logo" src="../static/images/cms-logo.jpg" />
+                            <img id="server-icon" src="../static/images/server-icon.jpg" />
+                        </div>
+                        <div class="footer-div">
+                            <h2>服务器信息</h2>
+                            <h2>IP:meory.top</h2>
+                            <h2>版本:1.19.3(最新)</h2>
+                        </div>
+		        <center><p><a href="https://www.createmiracle3330.top">Powered By CreateMiracle3330|创奇迹工作室©</a></p></center>
+		    </div>
+               
 		</div>
+                
 		
 		<script src="static/js/jquery.js"></script>
 	<script>
