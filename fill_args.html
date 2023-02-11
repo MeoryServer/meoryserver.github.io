@@ -12,10 +12,10 @@
                         input{
                             outline-style: none;
                             border: 2px solid #ccc; 
-                            border-radius: 5px;
+                            border-radius: 10px;
                             padding: 20px 20px;
                             width: 500px;
-                            font-size: 15px;
+                            font-size: 18px;
                             font-family: "Microsoft soft";
                             
                         }
@@ -25,6 +25,7 @@
                             -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
                             box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
                         }
+            
 			.loading{width: 100%;height: 100%;z-index: 100;position: fixed;background: #FCFCFC;}.loading-img{width: 480px;height: 720px;margin: auto;background: url(static/images/loading.gif);background-repeat: no-repeat;}#menu-box{position: fixed;overflow: hidden;width: 100%;transition-duration:0.4s;height: 50px;background: none;}.menu{width: 1005px;margin:auto;height: 50px;background:none;}.menu-item h2 a{padding-top:6px;color:#C6CDD4;transition-duration: 0.4s;padding-left:10px;float:left;}.menu-item a{padding:13px 15px;color:#C6CDD4;float:right;transition-duration: 0.4s;}.menu-item a:hover{color:white;font-size:20px;}.menu-item h2 a:hover{color:white;font-size:27px;}#item-box{height: 1150px;background:white;overflow: hidden;}
 		</style>
 	</head>
@@ -63,9 +64,11 @@
 		<div id="item-box">
                                 <h1>请先加入QQ频道！！！</h1>
                                 <form>
-			          <input id="qq_name" type="text" placeholder="请输入QQ频道中的昵称"><br>
+			          <input id="qq_name" type="text" placeholder="请输入QQ频道中的昵称">
+                                  <br>
                                   
-                                  <input id="qq_number" type="number" placeholder="请输入QQ号"><br>
+                                  <input id="qq_number" type="number" placeholder="请输入QQ号">
+                                  <br>
                                  
                                   <button onclick="get_args()">提交</button>
                                 </form>
