@@ -55,6 +55,7 @@ a {
 .item-page-box h2 {
 	padding:20px 0px;
 	color:#333333;
+        font-size: 20px;
 }
 .item-page div[class="item-font"] {
 	}.item-font h3 {
@@ -63,6 +64,7 @@ a {
 }
 .item-font p {
 	line-height:35px;
+        font-size: 10px;
 }
 .item-font a {
 	color:#337AB7;
