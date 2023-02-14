@@ -25,6 +25,7 @@ a {
         margin-top: 0px;
 	float:left;
 	transition:0.4s;
+        font-size: 25px;
 }
 .join-item {
 	font-size:30px;
