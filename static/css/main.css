@@ -14,7 +14,7 @@ a {
 	height:750px;
 }
 .join-buttom {
-	padding-top:50%;
+	padding-top:30%;
 	padding-left:100px;
 }
 .join-buttom a {
@@ -22,10 +22,10 @@ a {
 	border:3px solid white;
 	color:white;
 	margin-right:15px;
-        margin-top: 0px;
+        margin-buttom: 15px;
 	float:left;
 	transition:0.4s;
-        font-size: 25px;
+        font-size: 30px;
 }
 .join-item {
 	font-size:30px;
