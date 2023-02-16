@@ -17,7 +17,7 @@ a {
 	padding-top:30%;
 	padding-left:100px;
 }
-.join-buttom a {
+#join-buttom a {
 	padding:15px;
 	border:3px solid white;
 	color:white;
@@ -47,7 +47,7 @@ a {
         color: #ffffff;
         text-align:center;
 }
-.join-buttom a:hover {
+#join-buttom a:hover {
 	color:black;
 	background:white;
 }
