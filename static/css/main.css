@@ -19,7 +19,10 @@ a {
 }
 .join-us{
         padding-top: 30%;
-        padding-left: 200px
+        padding-left: 200px;
+	font-size:30px;
+	color:white;
+        width: 50%;
 }
 .join-us a {
 	padding:15px;
@@ -30,11 +33,6 @@ a {
 	float:left;
 	transition:0.4s;
         font-size: 30px;
-}
-.join-item {
-	font-size:30px;
-	color:white;
-        width: 50%;
 }
 .notice {
         width: 50%;
