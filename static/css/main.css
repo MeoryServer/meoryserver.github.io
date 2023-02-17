@@ -14,10 +14,14 @@ a {
 	height:750px;
 }
 .join-buttom {
-	padding-top:30%;
-	padding-left:100px;
+	padding-top:0%;
+	padding-left:0px;
 }
-#join-buttom a {
+.join-us{
+        padding-top: 30%;
+        padding-left: 200px
+}
+.join-us a {
 	padding:15px;
 	border:3px solid white;
 	color:white;
@@ -47,7 +51,7 @@ a {
         color: #ffffff;
         text-align:center;
 }
-#join-buttom a:hover {
+.join-us a:hover {
 	color:black;
 	background:white;
 }
